@@ -11,10 +11,28 @@
     		padding: 4em;
     		border: 1em solid;
     		margin: 1em;
+        float: left;
+        z-index: 5;
+        position: relative;
 	}
+  footer{
+    clear: left;
+    margin-top: 15rem;
+    height: 1000px;
+  }
+  header {
+    position: fixed;
+    top: 0;
+    background-color: gray;
+    width: 100%;
+  }
 	#border-box {
-    		box-sizing: border-box;
+        height: 15rem;
+        overflow: visible;
 	}
+  .container {
+    overflow: auto;
+  }
 	</style>
   </head>
   <body>
@@ -24,7 +42,7 @@
     	<h1>Headline</h1>
   	</header>
 
-  	<section>
+  	<section class="container">
 
     	<h1>A section</h1>
     	<article class="content-box">

@@ -1,11 +1,25 @@
-.cats {
-  max-width: 500px;
+.container{
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 1rem;
 }
 
-footer {
-  background-color: grey;
+footer{
+  background-color: gray;
 }
 
-h1 {
-  font-size: 3rem;
+header {
+  background-color: silver;
 }
+
+/* .content-box {
+  height: 5em;
+  width: 5em;
+  padding: 4em;
+  border: 1em solid;
+  margin: 1em;
+}
+
+#border-box {
+  box-sizing: border-box;
+} */
